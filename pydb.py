@@ -6,7 +6,7 @@ cursor=conn.cursor()
 id=109
 name='joy'
 phno='234141578'
-cursor.execute("insert into customer values({},'{}',{})".format(id,name,phno))
+cursor.execute("insert into customer values({},'{}','{}')".format(id,name,phno))
 conn.commit()
 cursor.execute("select * from customer")
 data=cursor.fetchall()

@@ -3,7 +3,7 @@ function add(){
 if(!document.getElementById("tb").value == ""){
 list.push(document.getElementById("tb").value);
 document.getElementById("tb").value = "";
-print()
+print();
 }
 }
 
